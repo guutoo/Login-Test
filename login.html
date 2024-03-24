@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="../css/estilologin.css">
+    <script src="../js/login.js" defer></script>
+</head>
+
+<body>
+    <img class="billy" src="../imagens/billy.jpg">
+
+<div class="container">
+    <div class="caixa">
+        <p class="texto1">Login</p>
+
+    <form action="" method="POST" onsubmit="return validateLogin();">
+
+        <p class="email1">Email</p>
+        <input class="email2" type="email" id="email02" name="email02" required>
+
+        <p class="senha1">Senha</p>
+        <input class="senha2" type="password" id="senha02" name="senha02" required> <br>
+
+        <div class="botaocentro">
+            <input class="login1" type="submit" name="submit" value="Login" placeholder="Password">
+          </div>
+          <a class="esqsenha" href="https://youtube.com">Esqueceu sua senha?</a>
+    </form>
+
+    <button class="cadastro1">Cadastra-se</button>
+
+    <div id="cadastro" class="cadastro">
+        <form action="" method="POST" onsubmit="return validateLogin();">
+          <p class="texto001">Cadastro</p>
+      
+          <p class="usuario001">Nome de Usuário</p>
+          <input class="usuario002" type="text" id="usuario002" name="usuario002" required>
+      
+          <p class="email001">Email</p>
+          <input class="email002" type="email" id="email002" name="email002" required>
+      
+          <p class="senha001">Senha</p>
+          <input class="senha002" type="password" id="senha002" name="senha002" required> <br>
+      
+          <div class="botaocentro1">
+            <input class="cadastro001" type="submit" name="submit" value="Cadastrar-se">
+          </div>
+        </form>
+        <button id="login-button" class="LOGIN-ANIMACAO">Login</button>
+      </div>
+
+    </div>
+</div>
+</body>
+
+</html>

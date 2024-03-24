@@ -1,0 +1,205 @@
+body {
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.billy {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.container {
+    position: relative;
+}
+
+.caixa {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: normal;
+}
+
+.texto001,
+.texto1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.email001,
+.email1 {
+    left: 30px;
+    position: relative;
+    font-size: 20px;
+    color: rgb(82, 82, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.email002,
+.email2 {
+    position: relative;
+    left: 30px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid rgb(82, 82, 82);
+    font-size: 20px;
+    width: 80%;
+    padding-bottom: 5px;
+}
+
+.email002,
+.email2:focus {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(82, 82, 82);
+    padding-bottom: 5px;
+}
+
+.usuario001,
+.senha001,
+.senha1 {
+    left: 30px;
+    position: relative;
+    font-size: 20px;
+    color: rgb(82, 82, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.usuario002,
+.senha002,
+.senha2 {
+    position: relative;
+    left: 30px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid rgb(82, 82, 82);
+    font-size: 20px;
+    width: 80%;
+    padding-bottom: 5px;
+}
+
+.usuario002:focus,
+.senha002:focus,
+.senha2:focus {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(82, 82, 82);
+    padding-bottom: 5px;
+}
+
+.login1 {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login1:hover {
+    transform: scale(1.1);
+}
+
+.botaocentro1,
+.botaocentro {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+.esqsenha {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(82, 82, 82);
+    margin-top: 15px;
+}
+
+.LOGIN-ANIMACAO,
+.cadastro1 {
+    align-self: center;
+    margin-top: 20px;
+    background-color: rgba(78, 68, 216, 0.801);
+    box-shadow: none;
+    border: none;
+    border-radius: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.LOGIN-ANIMACAO:hover,
+.cadastro1:hover {
+    transform: scale(1.05);
+}
+
+.cadastro{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 30px;
+    top: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro001 {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-top: 10px;
+    background-color: rgb(124, 124, 124);
+}
+
+.cadastro001:hover {
+    transform: scale(1.2);
+}
+
+.cadastro {
+    position: relative;
+    top: 200px;
+    transition: top 0.5s ease;
+    width: 400px;
+    height: 700px;
+    background-color: rgba(243, 243, 243, 0.973);
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
